@@ -69,7 +69,9 @@ class MainActivity : AppCompatActivity() {
 
                 // Obtener la carrera seleccionada en el spinner
                 val selectedCarrera = spinner.selectedItem.toString()
+                val imagenCarrera = carrerasImagenes[selectedCarrera]
                 intent.putExtra("career", selectedCarrera)
+                intent.putExtra("imagen", imagenCarrera)
 
                 startActivity(intent)
 
@@ -86,6 +88,24 @@ class MainActivity : AppCompatActivity() {
             datePicker()
         }
     }
+    //Accediendo imagenes relacionadas con las carreras de la FI UNAM
+    private val carrerasImagenes = mapOf(
+        "Ingeniería Aeroespacial" to R.drawable.ingaero,
+        "Ingeniería Ambiental" to R.drawable.ingambien,
+        "Ingeniería Civil" to R.drawable.ingcivil,
+        "Ingeniería en Computación" to R.drawable.ingcompu,
+        "Ingeniería Eléctrica Electrónica" to R.drawable.ingelectro,
+        "Ingeniería Geofísica" to R.drawable.inggeofisica,
+        "Ingeniería Geológica" to R.drawable.inggeologica,
+        "Ingeniería Geomática" to R.drawable.inggeoma,
+        "Ingeniería Mecánica" to R.drawable.ingmecanica,
+        "Ingeniería Mecantrónica" to R.drawable.ingmecatronica,
+        "Ingeniería de Minas y Metalurgia" to R.drawable.ingminasmetal,
+        "Ingeniería Petrolera" to R.drawable.ingpetrolera,
+        "Ingeniería en Sitemas Biomédicos" to R.drawable.ingsisbio,
+        "Ingeniería en Telecomunicaciones" to R.drawable.ingtelecom
+    )
+
 
     private fun datePicker(){
         // Valores por defecto del DatePicker

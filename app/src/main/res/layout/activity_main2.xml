@@ -172,8 +172,8 @@
 
     <TextView
         android:id="@+id/escogerCarrera"
-        android:layout_width="143dp"
-        android:layout_height="65dp"
+        android:layout_width="176dp"
+        android:layout_height="91dp"
         android:fontFamily="@font/aldrich"
         android:gravity="center"
         android:hint="@string/escogerCarrera"
@@ -187,10 +187,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758" />
+        app:layout_constraintVertical_bias="0.779" />
 
     <ImageView
         android:id="@+id/Zodiac"
@@ -255,12 +255,11 @@
         android:layout_height="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintHorizontal_bias="0.831"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79"
+        app:layout_constraintVertical_bias="0.786"
         app:srcCompat="@drawable/ingcivil" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
