@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.example.ejercicio1cm2023.databinding.ActivityMain2Binding
 import java.util.*
-
+//Comentando
 class MainActivity2 : AppCompatActivity() {
 
     private lateinit var binding: ActivityMain2Binding
