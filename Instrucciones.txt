@@ -1,0 +1,25 @@
+1-Descargue el repositorio titulado "ejercicio1cM2023" seleccionando el botón verde llamado "code", seleccione la opción de "Download Zip". 
+Se comprimirá y se descargará el repositorio con sus componentes.
+
+2.Revise la carpeta de "Descargas" o "Downloads", coloque el archivo comprimido en cualquier localización donde guste (De preferencia en "Documentos" o "Documents").
+
+3.Extraiga el archivo comprimido con la herramienta de su preferencia.
+
+4.Abra "Android.Studio", seleccione el menú "file", de click en "Open..."
+
+5.Regrese a la ubicación donde guardó el repositorio, copie la ubicación del archivo
+  Ejemplo:  "C:\Users\...\...\Documentos\ejercicio1cM2023-master"
+  
+6.En el buscador que sale en "Open..." pegue la ubicación del archivo, se redireccionará hacia la ubicación de la aplicación.
+Seleccione el nombre del proyecto que contiene el ícono de Android* y de click en el botón de OK. 
+*Con esto se comprueba que se descargó correctamente el proyecto
+
+7.Se cargará el proyecto pero como no carga los gradles necesarios, entonces diríjase a la parte superior derecha y de click
+en la opción de "sync Project with gradle files" (es el ícono de un elefeante con un una flecha azul apuntando hacia abajo).
+
+8.Espere a que se configuré completamente el proyecto. Una vez terminado de cargar todo el proyecto, de click en el ícono del
+triangulo verde llamado "Run app" para ejecutar toda la aplicación (también se encuentra en la parte superior derecha, está a un lado
+de la opción que dice "PIXEL 4 API 30")
+
+9.Disfrute la aplicación.
+
